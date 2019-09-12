@@ -1,0 +1,41 @@
+{
+  "name": "test-training",
+  "version": "1.0.0",
+  "description": "单元测试demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testMatchers": "jest ./tests/common_matchers.test.js",
+    "testRequest": "jest ./tests/request.test.js",
+    "testFile": "jest ./tests/api.test.js",
+    "testReactFile": "jest -u ./tests/Components/LinkAct.test.js"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSeaWave/test-training.git"
+  },
+  "keywords": [
+    "test",
+    "jest"
+  ],
+  "author": "Sea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSeaWave/test-training/issues"
+  },
+  "homepage": "https://github.com/MrSeaWave/test-training#readme",
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "axios": "^0.19.0",
+    "jest": "^24.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-test-renderer": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.9.0"
+  }
+}

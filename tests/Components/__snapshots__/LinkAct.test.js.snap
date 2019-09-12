@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Act 方法改变class数据 1`] = `
+<a
+  className="normal"
+  href="http://www.facebook.com"
+>
+  ----- Facebook ----- 
+</a>
+`;
+
+exports[`Link Act 方法改变class数据 2`] = `
+<a
+  className="normal"
+  href="http://www.baidu.com"
+>
+  ------ BaiDu ------
+</a>
+`;
